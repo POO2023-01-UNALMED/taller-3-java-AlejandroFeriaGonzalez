@@ -34,35 +34,35 @@ public class TV {
         this.estado = estado;
     }
 
-    public void canalUp() {
-        int nCanal = this.getCanal() + 1;
+    // public void canalUp() {
+    //     int nCanal = this.getCanal() + 1;
 
-        if (nCanal >= 1 && nCanal <= 120 && this.getEstado() == true){
-            this.setCanal(nCanal);
-        }
-    }
+    //     if (nCanal >= 1 && nCanal <= 120 && this.getEstado() == true){
+    //         this.setCanal(nCanal);
+    //     }
+    // }
 
-    public void canalDown() {
-        int nCanal = this.getCanal() - 1;
+    // public void canalDown() {
+    //     int nCanal = this.getCanal() - 1;
 
-        if (nCanal >= 1 && nCanal <= 120 && this.getEstado() == true){
-            this.setCanal(nCanal);
-        }
-    }
+    //     if (nCanal >= 1 && nCanal <= 120 && this.getEstado() == true){
+    //         this.setCanal(nCanal);
+    //     }
+    // }
 
-    public void volumenUp() {
-        int nVolumen = this.getVolumen() + 1;
-        if (nVolumen >= 0 && nVolumen <= 7 && this.getEstado() == true){
-            this.setVolumen(nVolumen);
-        }
-    }
+    // public void volumenUp() {
+    //     int nVolumen = this.getVolumen() + 1;
+    //     if (nVolumen >= 0 && nVolumen <= 7 && this.getEstado() == true){
+    //         this.setVolumen(nVolumen);
+    //     }
+    // }
 
-    public void volumenDown() {
-        int nVolumen = this.getVolumen() - 1;
-        if (nVolumen >= 0 && nVolumen <= 7 && this.getEstado() == true){
-            this.setVolumen(nVolumen);
-        }
-    }
+    // public void volumenDown() {
+    //     int nVolumen = this.getVolumen() - 1;
+    //     if (nVolumen >= 0 && nVolumen <= 7 && this.getEstado() == true){
+    //         this.setVolumen(nVolumen);
+    //     }
+    // }
 
     //getters y setters
     public Marca getMarca() {
